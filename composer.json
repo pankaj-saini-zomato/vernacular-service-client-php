@@ -1,0 +1,23 @@
+{
+  "name": "zomato/vernacular-service-client",
+  "description": "Vernacular Service",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Zomato",
+      "email": "developers@zomato.com"
+    }
+  ],
+  "require": {
+    "grpc/grpc": "^v1.3.0",
+    "google/protobuf": "^v3.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zomato\\VernacularService\\": [
+        "src/Zomato/VernacularService"
+      ]
+    }
+  }
+}
